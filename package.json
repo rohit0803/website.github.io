@@ -1,0 +1,23 @@
+{
+  "name": "poly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit0803/website.github.io.git"
+  },
+  "author": "“Aayush <“aayush962@gmail.com”>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohit0803/website.github.io/issues"
+  },
+  "homepage": "https://github.com/rohit0803/website.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
