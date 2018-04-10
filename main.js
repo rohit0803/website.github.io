@@ -6,11 +6,13 @@ var sticky = header.offsetTop;
 function myFunction() {
 	// console.log("rohit");
   if (window.pageYOffset >= sticky) {
+  	 document.getElementById("2").classList.add("b--0");
     header.classList.add("sticky");
-    document.getElementById("2").classList.add("b--0");
+   
   } else {
+  	document.getElementById("2").classList.remove("b--0");
     header.classList.remove("sticky");
-    document.getElementById("2").classList.remove("b--0");
+    
 
   }
 }

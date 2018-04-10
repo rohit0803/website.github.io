@@ -129,3 +129,14 @@ li a {
 	line-height: 1.72;
 	color: #474040;
 }
+ @media screen and (max-width: 900px){
+ 	.a{
+ 		height: 100vh;
+ 		display: flex;
+    justify-content: center;
+    align-items: center;
+	}	
+ 	.header{
+ 		display: none;
+ 	}
+ }
